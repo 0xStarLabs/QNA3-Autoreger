@@ -13,11 +13,11 @@ export const CAPTCHA = false;
 // bnb, opbnb
 export const NETWORK: Network = "bnb"
 
-export const CAPMONSTER_API_KEY = "";
+export const CAPMONSTER_API_KEY = "key";
 
 export const GAS_PRICE = [1.01, 1.1];
 
-export const INITIALIZATION_TIME = 50000;
+export const INITIALIZATION_TIME = 10000;
 
 export const EXCHANGE = {
     withdraw: false,
