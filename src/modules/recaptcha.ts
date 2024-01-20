@@ -48,7 +48,7 @@ export class Recaptcha {
                         responseType: "json"
                     });
                 const response = responseRaw.body as CapMonsterGetTaskResultResponse;
-                return response.solution;
+                return response.solution.gRecaptchaResponse;
             });
         } catch (error: any) {
             throw new Error("Error in Recaptcha - getTaskResult: " + error.message);
